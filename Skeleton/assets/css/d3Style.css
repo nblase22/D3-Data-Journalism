@@ -1,0 +1,19 @@
+.tooltip {
+    position: absolute;
+    width: 145px;
+    height: 80px;
+    padding: 2px;
+    padding-top: 8px;
+    font: 12px sans-serif;
+    color: white;
+    text-align: center;
+    background: #1d1aaf;
+    border: 0;
+    border-radius: 10px;
+  }
+  .axisText {
+    font-family: sans-serif;
+    font-weight: bold;
+    fill: black;
+    text-anchor: middle;
+  }
