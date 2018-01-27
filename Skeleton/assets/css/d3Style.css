@@ -17,3 +17,63 @@
     fill: black;
     text-anchor: middle;
   }
+
+  .xactive {
+    font-weight: bold;
+    fill: #000;
+    fill: #551aaf;
+    transition: fill 0.3s ease-out;
+    text-anchor: middle;
+  }
+
+  .xinactive {
+    font-weight: lighter;
+    fill: #551aaf;
+    transition: fill 0.3s ease-out;
+    text-anchor: middle;
+  }
+  .xinactive:hover {
+    fill: #e75480;
+    cursor: pointer;
+  }
+
+  .xinactive2 {
+    font-weight: lighter;
+    fill: #551aaf;
+    transition: fill 0.3s ease-out;
+    text-anchor: middle;
+  }
+  .xinactive2:hover {
+    fill: #e75480;
+    cursor: pointer;
+  }
+
+  .yactive {
+    font-weight: bold;
+    fill: #000;
+    fill: #551aaf;
+    transition: fill 0.3s ease-out;
+    text-anchor: middle;
+  }
+
+  .yinactive {
+    font-weight: lighter;
+    fill: #551aaf;
+    transition: fill 0.3s ease-out;
+    text-anchor: middle;
+  }
+  .yinactive:hover {
+    fill: #e75480;
+    cursor: pointer;
+  }
+
+  .yinactive2 {
+    font-weight: lighter;
+    fill: #551aaf;
+    transition: fill 0.3s ease-out;
+    text-anchor: middle;
+  }
+  .yinactive2:hover {
+    fill: #e75480;
+    cursor: pointer;
+  }
