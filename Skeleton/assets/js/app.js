@@ -2,11 +2,11 @@
 // Data compares reported excellent health and population between 25 and 29
 
 // create width and height of svg
-var svgWidth = 1000;
-var svgHeight = 700;
+var svgWidth = 700;
+var svgHeight = 450;
 
 // create the margins
-var margin = { top: 20, right: 40, bottom: 60, left: 100};
+var margin = { top: 20, right: 40, bottom: 100, left: 150};
 
 // calculate the width and height
 var width = svgWidth - margin.left - margin.right;
@@ -120,7 +120,7 @@ d3.csv("./assets/data/dataexpanded.csv", function(err, demodata){
                 popString = "Women 25-29";
             };
 
-            return (stateName + "<br> % in "+ healthstring + ": " + healthLabel + "<br> % of " + popString + ": " + youthPop);
+            return (stateName + "<br> % in "+ healthString + ": " + healthLabel + "<br> % of " + popString + ": " + popLabel);
         });
     
     chart.call(toolTip);
